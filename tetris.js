@@ -210,6 +210,7 @@
                 break;
             case 'f':  // toutche f
                 numForme+= 1;
+                (numForme > (forme[numForme].length - 1)) && (numForme = 0); // l'utilisation du && remplace le if-statement source: https://stackoverflow.com/questions/15009194/assign-only-if-condition-is-true-in-ternary-operator-in-javascript
                 refreshCanvas();
                 break;
         }
