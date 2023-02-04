@@ -127,7 +127,7 @@
                 if(rotation >  forme[numForme].length - 1) rotation = 0;
                 refreshCanvas();
                 break;
-            case 't':  // toutche t
+            case 'f':  // toutche f
                 numForme+= 1;
                 refreshCanvas();
                 break;
