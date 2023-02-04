@@ -54,7 +54,28 @@
         ]
     ];
 
-    // A compléter avec les autres formes    
+    forme[2]= [ // Forme 2
+        [	// rotation 0
+            [0,0,1],
+            [1,1,1],
+            [0,0,0]
+        ],
+        [	// rotation 1
+            [0,1,0],
+            [0,1,0],
+            [0,1,1]
+        ],
+        [	// rotation 2
+            [0,0,0],
+            [1,1,1],
+            [1,0,0]
+        ],
+        [	// rotation 3
+            [1,1,0],
+            [0,1,0],
+            [0,1,0]
+        ]
+    ];
 
 	// !!! Fin du Tableau de définition des formes    
 	
