@@ -122,6 +122,15 @@
                 if(rotation >  forme[numForme].length - 1) rotation = 0;
                 refreshCanvas();
                 break;
+            case 'ArrowDown':
+                rotation--;
+                if(rotation >  forme[numForme].length - 1) rotation = 0;
+                refreshCanvas();
+                break;
+            case 't':  // toutche t
+                numForme+= 1;
+                refreshCanvas();
+                break;
         }
       }, true);
 }
