@@ -122,7 +122,7 @@
         ]
     ];
 
-    forme[5]= [ // Forme 6
+    forme[6]= [ // Forme 7
         [ // rotation 0
             [0,0,0,0],
             [0,0,0,0],
