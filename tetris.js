@@ -77,6 +77,19 @@
         ]
     ];
 
+    forme[3] = [ // Forme 3
+        [	// rotation 0
+            [0,0,0],
+            [1,1,0],
+            [0,1,1]
+        ],
+        [	// rotation 1
+            [0,1,0],
+            [1,1,0],
+            [1,0,0]
+        ]
+    ];
+
 	// !!! Fin du Tableau de définition des formes    
 	
 	// !!! Fin de déclaration des variables !!!
